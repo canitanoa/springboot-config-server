@@ -25,7 +25,8 @@ añade funcionalidades a esta integración con git permitiendo consultar configu
 Esto permite que los microservicios se adapten a cambios en las properties en caliente.
 
 > ¿Como se configura?
-- En el directorio del proyecto "springboot-config-server\src\main\resources\config":
+- Se crea un repositorio en GitHub "config-server" donde se van a alojar todas las configuraciones de los MS
+- Localmente se encuentra en "\spring-boot-microservices\config-server":
   Se crean todos los archivos que configuran a los microservicios.
 	- servicio-items.properties -> Se nombra com el mismo name del MS contiene la configuracion para ese servicio, 
 	esto sobreescribe la configuracion que esta en el propio proyecto del MS cuando se utiliza este server.
