@@ -28,6 +28,6 @@ Esto permite que los microservicios se adapten a cambios en las properties en ca
 - En el directorio del proyecto "springboot-config-server\src\main\resources\config":
   Se crean todos los archivos que configuran a los microservicios.
 	- servicio-items.properties -> Se nombra com el mismo name del MS contiene la configuracion para ese servicio, 
-	esto sobreescribe la configuracion que esta en el propio proyecto del microservicio
+	esto sobreescribe la configuracion que esta en el propio proyecto del MS cuando se utiliza este server.
 	
 	
